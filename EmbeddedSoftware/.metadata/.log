@@ -1,0 +1,328 @@
+!SESSION 2015-06-14 17:53:36.566 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware
+
+!ENTRY org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:53:38.078
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.ui.workbench 4 0 2015-06-14 17:53:53.442
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.WorkbenchWindow.putToolbarLabel(WorkbenchWindow.java:1697)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.createToolBarAdditionContribution(MenuAdditionCacheEntry.java:208)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.createContributionItems(MenuAdditionCacheEntry.java:177)
+	at org.eclipse.ui.internal.menus.TrimContributionManager.update(TrimContributionManager.java:224)
+	at org.eclipse.ui.internal.WorkbenchWindow.updateLayoutDataForContents(WorkbenchWindow.java:3874)
+	at org.eclipse.ui.internal.WorkbenchWindow.setCoolBarVisible(WorkbenchWindow.java:3675)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.setBarVisibility(ViewIntroAdapterPart.java:203)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.dispose(ViewIntroAdapterPart.java:106)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(WorkbenchPartReference.java:737)
+	at org.eclipse.ui.internal.ViewReference.doDisposePart(ViewReference.java:107)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:684)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1801)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1793)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:257)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:292)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1872)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:894)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1729)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:730)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:867)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:865)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$18.run(Workbench.java:1114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1111)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:1040)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1284)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1254)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:727)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:867)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:865)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1694)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2069)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2541)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2069)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2541)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2069)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SESSION 2015-06-14 17:53:59.649 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:54:04.588
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.ui.workbench 4 0 2015-06-14 17:54:10.166
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.WorkbenchWindow.putToolbarLabel(WorkbenchWindow.java:1697)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.createToolBarAdditionContribution(MenuAdditionCacheEntry.java:208)
+	at org.eclipse.ui.internal.menus.MenuAdditionCacheEntry.createContributionItems(MenuAdditionCacheEntry.java:177)
+	at org.eclipse.ui.internal.menus.TrimContributionManager.update(TrimContributionManager.java:224)
+	at org.eclipse.ui.internal.WorkbenchWindow.updateLayoutDataForContents(WorkbenchWindow.java:3874)
+	at org.eclipse.ui.internal.WorkbenchWindow.setCoolBarVisible(WorkbenchWindow.java:3675)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.setBarVisibility(ViewIntroAdapterPart.java:203)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.dispose(ViewIntroAdapterPart.java:106)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(WorkbenchPartReference.java:737)
+	at org.eclipse.ui.internal.ViewReference.doDisposePart(ViewReference.java:107)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:684)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1801)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1793)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:257)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:292)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1872)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:894)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1729)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:730)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:867)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:865)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$18.run(Workbench.java:1114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1111)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:1040)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1284)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1254)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:727)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:867)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:865)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1694)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2069)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2541)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2069)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2541)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2069)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SESSION 2015-06-14 17:55:42.177 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-14 17:55:46.582
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY org.eclipse.ui 4 0 2015-06-14 17:56:36.638
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument cannot be null
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2219)
+	at org.eclipse.cdt.internal.build.crossgcc.SetCrossCommandWizardPage$3.widgetSelected(SetCrossCommandWizardPage.java:128)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:117)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 4 2015-06-14 17:56:38.663
+!MESSAGE Part already exists in page layout: org.eclipse.ui.console.ConsoleView.
+
+!ENTRY org.eclipse.ui 4 4 2015-06-14 17:56:38.666
+!MESSAGE Part already exists in page layout: org.eclipse.ui.views.ProblemView.
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-14 17:56:38.717
+!MESSAGE Indexed 'Control Flow' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-14 17:57:29.294
+!MESSAGE Indexed 'Process Control' (1 sources, 0 headers) in 0.09 sec: 2 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (60.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-14 17:57:30.537
+!MESSAGE Indexed 'Process Control' (1 sources, 4 headers) in 0.39 sec: 743 declarations; 966 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
