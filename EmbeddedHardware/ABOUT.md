@@ -1,0 +1,1 @@
+Directory to store our schematics and electrical diagrams

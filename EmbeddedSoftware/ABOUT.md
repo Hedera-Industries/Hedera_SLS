@@ -1,0 +1,1 @@
+Directory to store our embedded software and firmware
