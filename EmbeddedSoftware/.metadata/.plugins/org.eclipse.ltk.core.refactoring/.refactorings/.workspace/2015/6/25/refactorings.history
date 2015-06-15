@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Control Flow&apos;" deleteContents="false" description="Delete resource &apos;Control Flow&apos;" element1="/Control Flow" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1434319019774"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Control Flow&apos;" deleteContents="false" description="Delete resource &apos;Control Flow&apos;" element1="/Control Flow" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1434319019774"/>&#x0A;<refactoring comment="Delete resource &apos;msp430fr59xx_TimerA0_PWM_DCO&apos;" deleteContents="true" description="Delete resource &apos;msp430fr59xx_TimerA0_PWM_DCO&apos;" element1="/msp430fr59xx_TimerA0_PWM_DCO" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1434404894410"/>
 </session>

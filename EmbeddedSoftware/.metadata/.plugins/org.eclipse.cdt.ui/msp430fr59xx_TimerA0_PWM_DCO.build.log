@@ -1,0 +1,54 @@
+
+**** Build of configuration Debug for project msp430fr59xx_TimerA0_PWM_DCO ****
+
+"C:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../main.cfg'
+'Invoking: XDCtools'
+"C:/ti/xdctools_3_25_04_88/xs" --xdcpath="C:/ti/grace_2_20_01_12/packages;C:/ti/msp430/MSP430ware_1_60_02_09/driverlib/packages;C:/ti/ccsv5/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.msp430.elf.MSP430X -p ti.platforms.msp430:MSP430FR5969 -r debug -c "C:/ti/ccsv5/tools/compiler/msp430_4.2.1" --compileOptions "--symdebug:dwarf -g --optimize_with_debug" "../main.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring main.xe430X from package/cfg/main_pe430X.cfg ...
+cle430X package/cfg/main_pe430X.c ...
+'Finished building: ../main.cfg'
+' '
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmspx --abi=eabi -O0 --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --advice:power="none" -g --define=__MSP430FG4619__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp" --cmd_file="./configPkg/compiler.opt"  "../main.c"
+'Finished building: ../main.c'
+' '
+'Building target: msp430fr59xx_TimerA0_PWM_DCO.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmspx --abi=eabi -O0 --advice:power="none" -g --define=__MSP430FG4619__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z -m"msp430fr59xx_TimerA0_PWM_DCO.map" --heap_size=80 --stack_size=80 --use_hw_mpy=16 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/lib" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="msp430fr59xx_TimerA0_PWM_DCO_linkInfo.xml" --rom_model -o "msp430fr59xx_TimerA0_PWM_DCO.out" -l"./configPkg/linker.cmd"  "./main.obj" "../lnk_msp430fg4619.cmd" -l"libc.a" 
+<Linking>
+
+ undefined first referenced                                                                                               
+  symbol       in file                                                                                                    
+ --------- ----------------                                                                                               
+ PADIR_H   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PADIR_L   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+
+ PAIES_H   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+>> Compilation failure
+ PAIES_L   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PAIFG_H   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PAIFG_L   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PAOUT_H   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PAOUT_L   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PASEL0_L  F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PBDIR_H   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PBDIR_L   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PBIES_H   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PBIES_L   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PBIFG_H   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PBIFG_L   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PBOUT_H   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PBOUT_L   F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PJDIR     F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+ PJOUT     F:\Documents\Hedera\Hedera_SLS\EmbeddedSoftware\msp430fr59xx_TimerA0_PWM_DCO\src\grace/grace.lib<GPIO_init.obj>
+
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "msp430fr59xx_TimerA0_PWM_DCO.out" not built
+gmake: *** [msp430fr59xx_TimerA0_PWM_DCO.out] Error 1
+gmake: Target `all' not remade because of errors.
+
+**** Build Finished ****

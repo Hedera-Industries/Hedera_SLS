@@ -326,3 +326,87 @@ java.lang.IllegalArgumentException: Argument cannot be null
 
 !ENTRY org.eclipse.cdt.core 1 0 2015-06-14 17:57:30.537
 !MESSAGE Indexed 'Process Control' (1 sources, 4 headers) in 0.39 sec: 743 declarations; 966 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2015-06-15 17:33:34.930 -----------------------------------------------
+eclipse.buildId=M20120914-1540
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE Warnings while parsing the viewer contributions from the 'org.eclipse.ui.popupMenus' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.CEditorRulerActions/org.eclipse.cdt.debug.ui.actions.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.CBreakpointPropertiesRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.internal.ui.actions.asm.EnableDisableBreakpointRulerActionDelegate'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.debug.ui', id='AUTOGEN:::org.eclipse.cdt.debug.ui.AsmEditorRulerActions/org.eclipse.cdt.debug.ui.actions.asm.RulerCreateBreakpointInteractiveAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='AUTOGEN:::org.eclipse.cdt.dsf.debug.ui.disassemblyRulerActions/org.eclipse.debug.ui.actions.RulerAddBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-06-15 17:33:38.904
+!MESSAGE invalid keybinding: Cannot bind to an incomplete key sequence: plug-in='org.eclipse.cdt.dsf.ui', id='org.eclipse.cdt.dsf.debug.ui.disassembly.commands.rulerToggleBreakpoint'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 17:41:29.259
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerDebug.563145081'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 17:41:29.283
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerRelease.28671247'
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-15 17:41:29.555
+!MESSAGE Indexed 'msp430fr59xx_TimerA0_PWM_DCO' (1 sources, 0 headers) in 0.02 sec: 2 declarations; 2 references; 2 unresolved inclusions; 0 syntax errors; 1 unresolved names (20.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-15 17:41:30.424
+!MESSAGE Indexed 'msp430fr59xx_TimerA0_PWM_DCO' (1 sources, 5 headers) in 0.29 sec: 881 declarations; 1,293 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 17:46:36.482
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerDebug.1574749431'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 17:57:44.169
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerDebug.1316709706'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 17:57:44.184
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerRelease.1427640480'
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-15 17:57:44.353
+!MESSAGE Indexed 'msp430xG46x_tb_04' (1 sources, 0 headers) in 0.01 sec: 5 declarations; 4 references; 1 unresolved inclusions; 1 syntax errors; 18 unresolved names (66.67%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-15 17:57:45.255
+!MESSAGE Indexed 'msp430xG46x_tb_04' (1 sources, 4 headers) in 0.09 sec: 330 declarations; 489 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2015-06-15 17:58:23.281
+!MESSAGE DS_ERROR: MSP430: Error initializing emulator: A firmware update is required for the MSP430 Debug Interface (MSP-FET430UIF). Click the "Update" button to update the firmware and launch your debug session.  Answer "yes" to any driver installation dialogs that pop up during the update.  DO NOT UNPLUG THE INTERFACE DURING THE UPDATE.  Caution: This update includes significant changes. Older versions of Code Composer Studio or other IDEs may not work with this update. A downgrade will have to be performed manually. See www.ti.com/mspds for details.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2015-06-15 17:58:23.393
+!MESSAGE DS_ERROR: Error initializing emulator:
+A firmware update is required for the MSP430 Debug Interface (MSP-FET430UIF). Click the "Update" button to update the firmware and launch your debug session.  Answer "yes" to any driver installation dialogs that pop up during the update.
+
+DO NOT UNPLUG THE INTERFACE DURING THE UPDATE.
+
+Caution:
+This update includes significant changes. Older versions of Code Composer Studio or other IDEs may not work with this update. A downgrade will have to be performed manually. See www.ti.com/mspds for details.
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 18:12:04.060
+!MESSAGE Unrecognized option setting '--silicon_errata=CPU30' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerDebug.1578151271'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 18:12:04.063
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerDebug.1578151271'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 18:12:04.077
+!MESSAGE Unrecognized option setting '--silicon_errata=CPU30' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerRelease.1966464434'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2015-06-15 18:12:04.079
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerRelease.1966464434'
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-15 18:12:04.285
+!MESSAGE Indexed 'idle_MSP430F5529' (1 sources, 0 headers) in 0.00 sec: 7 declarations; 8 references; 4 unresolved inclusions; 0 syntax errors; 10 unresolved names (40.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-06-15 18:12:06.221
+!MESSAGE Indexed 'idle_MSP430F5529' (1 sources, 49 headers) in 0.48 sec: 2,791 declarations; 4,038 references; 0 unresolved inclusions; 3 syntax errors; 7 unresolved names (0.10%)

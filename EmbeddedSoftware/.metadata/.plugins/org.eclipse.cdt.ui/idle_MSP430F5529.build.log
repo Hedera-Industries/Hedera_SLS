@@ -1,0 +1,47 @@
+
+**** Build of configuration Debug for project idle_MSP430F5529 ****
+
+"C:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../idle.cfg'
+'Invoking: XDCtools'
+"C:/ti/xdctools_3_25_04_88/xs" --xdcpath="C:/ti/bios_6_35_04_50/packages;C:/ti/ccsv5/ccs_base;" xdc.tools.configuro -o configPkg -t ti.targets.msp430.elf.MSP430X -p ti.platforms.msp430:MSP430F5529 -r release -c "C:/ti/ccsv5/tools/compiler/msp430_4.2.1" --compileOptions "-g --optimize_with_debug" "../idle.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring idle.xe430X from package/cfg/idle_pe430X.cfg ...
+generating custom ti.sysbios library makefile ... 
+generating custom ti.sysbios.family.msp430 Hwi stubs ... 
+Starting build of library sources ...
+making F:/Documents/Hedera/Hedera_SLS/EmbeddedSoftware/idle_MSP430F5529/src/sysbios.ae430X ...
+gmake[1]: Entering directory `F:/Documents/Hedera/Hedera_SLS/EmbeddedSoftware/idle_MSP430F5529/src/sysbios'
+cle430X C:/ti/bios_6_35_04_50/packages/ti/sysbios/BIOS.c ...
+asme430X C:/ti/bios_6_35_04_50/packages/ti/sysbios/family/msp430/TaskSupport_asm.asm ...
+asme430X C:/ti/bios_6_35_04_50/packages/ti/sysbios/family/msp430/Hwi_switch_asm.asm ...
+are430X BIOS.obj msp430_TaskSupport_asm.obj msp430_Hwi_switch_asm.obj ...
+gmake[1]: Leaving directory `F:/Documents/Hedera/Hedera_SLS/EmbeddedSoftware/idle_MSP430F5529/src/sysbios'
+Build of libraries done.
+cle430X package/cfg/idle_pe430X.c ...
+'Finished building: ../idle.cfg'
+' '
+        1 file(s) copied.
+making ../src/sysbios.ae430X ...
+gmake[1]: Entering directory `F:/Documents/Hedera/Hedera_SLS/EmbeddedSoftware/idle_MSP430F5529/src/sysbios'
+gmake[1]: Nothing to be done for `all'.
+gmake[1]: Leaving directory `F:/Documents/Hedera/Hedera_SLS/EmbeddedSoftware/idle_MSP430F5529/src/sysbios'
+'Building file: ../idle.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmspx --abi=eabi --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" --advice:power=all -g --define=__MSP430F5529__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="idle.pp" --cmd_file="./configPkg/compiler.opt"  "../idle.c"
+'Finished building: ../idle.c'
+' '
+'Building target: idle_MSP430F5529.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmspx --abi=eabi --advice:power=all -g --define=__MSP430F5529__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --printf_support=minimal -z -m"idle_MSP430F5529.map" --heap_size=160 --stack_size=160 --use_hw_mpy=F5 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/lib" -i"C:/ti/ccsv5/tools/compiler/msp430_4.2.1/include" -i"C:/ti/ccsv5/ccs_base/msp430/lib" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="idle_MSP430F5529_linkInfo.xml" --rom_model -o "idle_MSP430F5529.out" -l"./configPkg/linker.cmd"  "./idle.obj" "../lnk_msp430f5529.cmd" -l"libmath.a" -l"libc.a" 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changes using LPMx or _bis_SR_register() or __low_power_mode_x() in this project.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: idle_MSP430F5529.out'
+' '
+
+**** Build Finished ****
